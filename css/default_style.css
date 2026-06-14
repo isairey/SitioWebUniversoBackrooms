@@ -1,0 +1,203 @@
+@font-face{
+    font-family: 'VCR OSD Mono';
+    src: url('../fonte/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Courier Prime';
+    src: url('../fonte/Courier_Prime.ttf') format('truetype');
+}
+
+/* =========================================
+CONFIGURAÇÃO BACKGROUND 
+========================================= */
+body{
+    background-image: url('../imagens/parede.png');
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* =========================================
+CONFIGURAÇÃO HEADER 
+========================================= */
+header{
+    background-color: rgb(172, 81, 16);
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.titulo{
+    font-size: 70px;
+    font-family: 'VCR OSD Mono', monospace;
+    color: white;
+}
+
+.logo{
+    width: 160px;
+    height: 160px;
+}
+
+/* =========================================
+CONFIGURAÇÃO NAV 
+========================================= */
+nav{
+    background-color: rgb(136, 65, 15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    gap: 70px;
+    padding: 10px;
+}
+
+.buttons{
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 20px; 
+    border-radius: 30px;
+    transition: all 0.2s ease;
+}
+
+.buttons:hover{
+    background-color: rgb(73, 28, 3);
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.8);
+}
+
+
+/* =========================================
+CONFIGURAÇÃO MAIN
+========================================= */
+
+main{
+    flex: 1;
+    width: 90%;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.6), 0 0 15px rgba(0, 0, 0);;
+}
+
+/* =========================================
+CONFIGURAÇÃO FOOTER
+========================================= */
+footer{
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+    background-color: rgb(136, 65, 15);
+    padding: 10px;
+    color: white;
+}
+
+.menu_footer{
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu_footer a{
+    color: white;
+    text-decoration: none;
+}
+
+/* =========================================
+PERSONALIZAÇÕES
+========================================= */
+
+/* -----> Páginas com temática do Th3 Sh4dy Gr3y */
+.shady{
+    background-image: url('../imagens/ShadyGrey/paredecinza.png');
+}
+.shady header{
+    background-color: rgb(90, 89, 89);
+}
+
+.shady nav{
+    background-color: rgb(51, 51, 51);
+}
+
+.shady footer{
+    background-color: rgb(51, 51, 51);
+}
+
+.shady .buttons:hover{
+    background-color: rgb(24, 24, 24)
+}
+
+/* =========================================
+RESPONSIVIDADE
+========================================= */
+@media (max-width: 1024px){
+    header{ 
+        gap: 40px;
+        padding:5px;
+    }
+    .titulo { font-size: 50px; }
+
+    .logo { width: 120px; height: 120px; }
+    
+    nav { gap: 40px; }
+
+    .buttons { 
+        font-size: 20px; 
+        padding: 10px 15px; 
+    }
+}
+
+@media (max-width: 768px){
+    header{
+        gap: 20px;
+        padding: 5px;
+    }
+
+    .titulo{font-size: 35px;}
+
+    .logo{width: 90px; height: 90px;}
+    
+    nav{gap: 20px;}
+
+    .buttons{ 
+        font-size: 15px; 
+        padding: 8px 12px; 
+    }
+    
+    footer{font-size: 15px;}
+
+    .menu_footer{gap: 10px;}
+}
+
+@media (max-width: 480px){
+    header{ 
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding: 15px 5px;
+    }
+
+    .titulo{font-size: 28px;}
+
+    .logo{width: 80px; height: 80px;}
+    
+    nav{ 
+        gap: 10px; 
+        flex-wrap: wrap;
+    }
+    .buttons{ 
+        font-size: 14px; 
+        padding: 6px 10px; 
+    }
+    
+    footer{font-size: 13px;}
+
+    .menu_footer{gap: 8px;}
+}

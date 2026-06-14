@@ -1,0 +1,113 @@
+main{
+    background-color: rgb(172, 81, 16);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 40px 0;
+    padding: 15px;
+}
+
+.main_titulo{
+    background-color: rgb(136, 65, 15);
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 60px;
+    margin: 0;
+    padding: 15px;
+}
+
+.main_texto{
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.divisao{
+    display: flex;
+    gap: 10px;
+}
+
+main a{
+   font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(218, 141, 87);
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    margin: 5px;
+    padding: 5px;
+}
+
+main a:hover{
+    color: rgb(77, 34, 3);
+    background-color: bisque;
+}
+
+.main_arquivos{
+    background-color: rgb(212, 111, 38);
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+}
+
+/* =========================================
+RESPONSIVIDADE
+========================================= */
+@media (max-width: 1200px){
+    main{
+        margin: 30px auto;
+        gap: 15px;
+    }
+
+    .main_titulo{
+        font-size: 40px;
+    }
+
+    .main_texto{
+        font-size: 18px;
+    }
+
+    main a{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 970px){
+    main{
+        margin: 25px auto;
+        gap: 12px;
+    }
+
+    .main_titulo{
+        font-size: 35px;
+    }
+
+    .main_texto{
+        font-size: 15px;
+    }
+
+    .main a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 617px){
+    main{
+        margin: 15px auto;
+        gap: 5px;
+    }
+
+    .main_titulo{
+        font-size: 30px;
+    }
+
+    .main_texto{
+        font-size: 13px;
+    }
+    
+    main a{
+        font-size: 13px;
+    }
+}

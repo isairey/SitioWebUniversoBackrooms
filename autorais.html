@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Arquivos Autorais</title>
+        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/default_style.css">
+        <link rel="stylesheet" href="css/autorais.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img class="logo" src="imagens/logo.png" alt="Logo Diário das Backrooms">
+            </a>
+            <h1 class="titulo">O DIÁRIO DAS BACKROOMS</h1>
+        </header>
+
+        <nav>
+            <a class="buttons" href="arquivos.html">ARQUIVOS</a>
+            <a class="buttons" href="sobre.html">SOBRE O PROJETO</a>
+            <a class="buttons" href="relatos.html">ENVIAR RELATOS</a>
+            <a class="buttons" href="autorais.html">AUTORAIS</a>
+        </nav>
+
+        <main>
+            <h1 class="main_titulo">ARQUIVOS AUTORAIS</h1>
+            <p class="main_texto">Saindo um pouco do "andarilho misterioso" e falando como o Jefferson agora, sempre quis escrever alguns níveis de autoria própria,
+                e quem sabe até arriscar publicar esses níveis em uma das wikis das Backrooms. Mas nunca tinha avançado nisso. <br>
+                Porém, com o projeto do Diário das Backrooms, essa ideia retornou em minha mente. Então, aqui, encontram-se os arquivos de autoria própria,
+                que criei para expandir a lore e apresentar novas ideias de níveis, entidades, objetos e grupos das Backrooms.
+            </p>
+
+            <section>
+                <a  class="main_buttons" href="autorais/niveis.html">NÍVEIS</a>
+
+                <a  class="main_buttons" href="autorais/entidades.html">ENTIDADES</a>
+
+                <a  class="main_buttons" href="autorais/objetos.html">OBJETOS</a>
+
+                <a  class="main_buttons" href="autorais/grupos.html">GRUPOS</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>
+                © Jefferson Beltrame, 2022-<span id="ano"></span>. <br>
+                "O Diário das Backrooms" é uma obra autoral licenciada sob CC BY-NC-ND 4.0
+            </p>
+
+            <script>
+                document.getElementById("ano").textContent = new Date().getFullYear();
+            </script>
+        </footer> 
+    </body>
+</html>

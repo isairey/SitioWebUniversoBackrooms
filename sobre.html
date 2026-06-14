@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sobre o Projeto</title>
+        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/default_style.css">
+        <link rel="stylesheet" href="css/sobre.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img class="logo" src="imagens/logo.png" alt="Logo Diário das Backrooms">
+            </a>
+            
+            <h1 class="titulo">O DIÁRIO DAS BACKROOMS</h1>
+        </header>
+
+        <nav>
+            <a class="buttons" href="arquivos.html">ARQUIVOS</a>
+            <a class="buttons" href="sobre.html">SOBRE O PROJETO</a>
+            <a class="buttons" href="relatos.html">ENVIAR RELATOS</a>
+            <a class="buttons" href="autorais.html">AUTORAIS</a>
+        </nav>
+
+        <main>
+            <h2 class="main_titulo">SOBRE O PROJETO</h2>
+
+            <article class="fundo">
+                <p class="main_texto">O projeto do Diário das Backrooms começou na época que eu ainda era estagiário, na Câmara Municipal de Diadema, em dezembro de 2022.</p>
+
+                <p class="main_texto">A ideia original era criar uma coletânea de arquivos dos mais diversos formatos, todos autorais, transcritos em "relatos". Além disso,
+                contaria também com uma Wiki estilizada, com as informações da Wikidot/Wiki Fandom. O projeto e suas páginas iniciais foram finalizados em fevereiro de 2023,
+                onde haviam diários, entidades, níveis, grupos e objetos.</p>
+
+                <p class="main_texto">Após isso, o projeto ficou em standby até abril de 2026, quando resolvi criar um repositório no GitHub para subir este projeto e aperfeiçoá-lo 
+                com as técnicas que eu estava aprendendo. Então, comecei a avaliá-lo e percebi que a ideia de uma Wiki personalizada, apesar de ser interessante para questões de
+                aperfeiçoamento de código, não era viável, já que já existia uma wiki explicando cada nível, entidade, grupo e objeto. Então alterei o propósito inicial do projeto
+                e transformei o código para que ele se tornasse um grande arquivo de textos, contando histórias dos andarilhos.</p>
+
+                <p class="main_texto">Minha ideia aqui é só usar as Wikis como referência para aprofundamento. Pretendo me basear em níveis, objetos e entidades existentes,
+                principalmente os clássicos e os considerados "canônicos", mas também utilizarei da minha veia criativa para desenvolver meus próprios níveis, objetos, entidades
+                e histórias, tentando trazer uma nova perspectiva sobre esse assunto que já está saturado a essa altura.</p>
+
+                <p class="main_texto">É importante ressaltar que não pretendo popular este diário sozinho. Por isso criei o formulário de envio de relatos, onde você pode enviar
+                histórias que inventar ou que achar interessante, e, caso seja aceita, poderá fazer parte dos arquivos do Diário. Sinta-se à vontade para enviar quantas quiser.</p>
+
+                <p class="main_texto">Espero que seu tempo aqui seja agradável, obrigado por fazer parte desta ideia! <br>
+                Abaixo, deixo algumas formas de você entrar em contato comigo, caso deseje.</p>
+
+                <p class="main_texto">Um grande abraço, do seu amigo.</p>
+
+                <p class="main_texto">Jefferson Luiz Beltrame</p>
+
+                <address class="main_texto">
+                    <a href="https://www.linkedin.com/in/jefferson-beltrame-23665316a/" target="_blank">LinkedIn</a> | 
+                    <a href="https://github.com/jeffbeltrame" target="_blank">GitHub</a> | 
+                    <a href="https://www.instagram.com/jeff_beltrame/" target="_blank">Instagram</a> | 
+                    jefferhand97@gmail.com
+                </address>
+            </article>
+        </main>
+
+        <footer>
+            <p>
+                © Jefferson Beltrame, 2022-<span id="ano"></span>. <br>
+                "O Diário das Backrooms" é uma obra autoral licenciada sob CC BY-NC-ND 4.0
+            </p>
+
+            <script>
+                document.getElementById("ano").textContent = new Date().getFullYear();
+            </script>
+        </footer>    
+    </body>
+</html>

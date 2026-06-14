@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Envie seu Relato</title>
+        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/default_style.css">
+        <link rel="stylesheet" href="css/relatos.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img class="logo" src="imagens/logo.png" alt="Logo Diário das Backrooms">
+            </a>
+            
+            <h1 class="titulo">O DIÁRIO DAS BACKROOMS</h1>
+        </header>
+
+        <nav>
+            <a class="buttons" href="arquivos.html">ARQUIVOS</a>
+            <a class="buttons" href="sobre.html">SOBRE O PROJETO</a>
+            <a class="buttons" href="relatos.html">ENVIAR RELATOS</a>
+            <a class="buttons" href="autorais.html">AUTORAIS</a>
+        </nav>
+
+        <main>
+            <h2 class="main_titulo">ENVIE SEU RELATO</h2>
+
+            <h2 class="main_subtitulo">VIVENCIOU ALGO OU ACHOU REGISTROS DE OUTROS ANDARILHOS?<h2>
+            
+            <p class="main_texto">Receberemos seus arquivos e faremos uma análise. Caso sejam aceitos, poderão fazer parte dos arquivos do Diário.</p>
+
+            <a href="https://forms.gle/PQ5uLTM2yr9FBDaV9" target="_blank">ENVIAR RELATOS</a>
+        </main>
+
+        <footer>
+            <p>
+                © Jefferson Beltrame, 2022-<span id="ano"></span>. <br>
+                "O Diário das Backrooms" é uma obra autoral licenciada sob CC BY-NC-ND 4.0
+            </p>
+
+            <script>
+                document.getElementById("ano").textContent = new Date().getFullYear();
+            </script>
+        </footer>    
+    </body>
+</html>

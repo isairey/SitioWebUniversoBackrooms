@@ -1,0 +1,111 @@
+main {
+    background-color: rgb(172, 81, 16);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    padding: 15px;
+    gap: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.main_titulo {
+    background-color: rgb(136, 65, 15);
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 60px;
+    margin: 0;
+    padding: 15px;
+}
+
+.main_texto {
+    font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.main_buttons {
+    font-family: 'VCR OSD Mono', monospace;
+    font-size: 27px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(136, 65, 15);
+    padding: 12px 20px; 
+    transition: all 0.2s ease;
+    border-radius: 30px;
+}
+
+.main_buttons:hover {
+    background-color: rgb(73, 28, 3);
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* =========================================
+   RESPONSIVIDADE
+========================================= */
+
+@media (max-width: 1024px) {
+    main {
+        margin: 30px 0;
+    }
+
+    .main_titulo {
+        font-size: 52px;
+    }
+
+    .main_texto {
+        font-size: 19px;
+    }
+
+    .main_buttons {
+        font-size: 24px;
+        padding: 10px 18px;
+    }
+}   
+
+@media (max-width: 768px) {
+    main {
+        margin: 20px 0;
+    }
+
+    .main_titulo {
+        font-size: 40px;
+    }
+
+    .main_texto {
+        font-size: 16px;
+    }
+
+    .main_buttons {
+        font-size: 22px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        margin: 10px 0; 
+        padding: 10px;
+    }
+
+    .main_titulo {
+        font-size: 28px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .main_texto {
+        font-size: 14px; 
+    }
+
+    .main_buttons {
+        font-size: 18px; 
+        padding: 8px 10px;
+    }
+}

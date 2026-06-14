@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <!-- Você realmente pegou meu código para analisar? Muito bom! Lhe desejo sorte! -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>O Diário das Backrooms</title>
+        <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="css/default_style.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img class="logo" src="imagens/logo.png" alt="Logo Diário das Backrooms">
+            </a>
+            
+            <h1 class="titulo">O DIÁRIO DAS BACKROOMS</h1>
+        </header>
+
+        <nav>
+            <a class="buttons" href="arquivos.html">ARQUIVOS</a>
+            <a class="buttons" href="sobre.html">SOBRE O PROJETO</a>
+            <a class="buttons" href="relatos.html">ENVIAR RELATOS</a>
+            <a class="buttons" href="autorais.html">AUTORAIS</a>
+        </nav>
+
+        <main>
+            <h2 class="main_titulo">SOBRE O DIÁRIO DAS BACKROOMS</h2>
+            
+            <img class="main_logo" src="imagens/logo.png" alt="Logo Diário das Backrooms">
+            
+            <p class="main_texto">
+                O Diário das Backrooms é uma coletânea de relatos e histórias deixados pelos andarilhos e sobreviventes que passaram pelas Backrooms. 
+                Encontradas das mais diversas formas, essas histórias carregam todos os sentimentos e aflições de seus escritores, com os mais variados finais.
+            </p>
+
+            <hr>
+
+            <p class="main_texto">Caso não conheça sobre as Backrooms, você pode obter informações <a href="https://backrooms-wiki.wikidot.com/" target="_blank">clicando aqui</a>.</p>
+
+            <hr>
+
+            <p class="main_texto">No menu de navegação, você irá encontrar:</p>
+
+            <dl class="main_texto">
+                    <dt><strong>ARQUIVOS:</strong></dt>
+                    <dd>Relatos e histórias dos andarilhos que foram transcritos, detalhados e comentados.</dd>
+                    <br>
+                    
+                    <dt><strong>SOBRE O PROJETO:</strong></dt>
+                    <dd>Informações e links sobre o projeto "O Diário das Backrooms".</dd>
+                    <br>
+                    
+                    <dt><strong>ENVIAR RELATOS:</strong></dt>
+                    <dd>Andarilhos podem enviar relatos próprios ou encontrados durante suas viagens, para serem incluídos no diário.</dd>
+                    <br>
+
+                    <dt><strong>AUTORAIS:</strong></dt>
+                    <dd>Arquivos autorais no estilo "Wiki", onde encontram-se níveis, entidades, objetos e grupos 100% originais.</dd>
+            </dl>
+        </main>
+
+        <a class="easter" href="https://www.youtube.com/watch?v=GWXl7YulntA" target="_blank">!</a>
+
+        <footer>
+            <p>
+                © Jefferson Beltrame, 2022-<span id="ano"></span>. <br>
+                "O Diário das Backrooms" é uma obra autoral licenciada sob CC BY-NC-ND 4.0
+            </p>
+
+            <script>
+                document.getElementById("ano").textContent = new Date().getFullYear();
+            </script>
+        </footer>    
+    </body>
+</html>
