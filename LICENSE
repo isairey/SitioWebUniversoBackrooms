@@ -1,18 +1,21 @@
-Licença Creative Commons Atribuição–NãoComercial–SemDerivações 4.0 Internacional (CC BY-NC-ND 4.0)
+MIT License
 
-Este projeto, "O Diário das Backrooms", incluindo seu código-fonte (HTML/CSS), design, textos, lore e narrativas originais, é de autoria de Jefferson Luiz Beltrame e está licenciado sob a licença CC BY-NC-ND 4.0.
+Copyright (c) 2026 Isai Reyes
 
-Você tem o direito de:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Compartilhar — copiar e redistribuir o material em qualquer suporte ou formato.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Sob os seguintes termos:
-
-Atribuição (BY): Você deve dar o crédito apropriado ao autor original (Jefferson Luiz Beltrame) e fornecer um link para o projeto original.
-Não Comercial (NC): Você não pode usar este material para fins comerciais.
-Sem Derivações (ND): Se você remixar, transformar ou modificar o material, não poderá distribuir a versão modificada.
-
-Elementos, conceitos ou referências pertencentes ao universo colaborativo "Backrooms" permanecem sob os direitos de seus respectivos autores e comunidades. Este projeto reivindica autoria apenas sobre conteúdos originais produzidos para "O Diário das Backrooms".
-
-Texto oficial da licença:
-https://creativecommons.org/licenses/by-nc-nd/4.0/deed.pt_BR
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
