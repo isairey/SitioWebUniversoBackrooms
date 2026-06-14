@@ -180,7 +180,7 @@ Los elementos pertenecientes al universo colaborativo de Backrooms son propiedad
 
 <div align="center">
 
-## ISAI REYES 
+## ISAI REYES
 
 ### Desarrollador Front-End | Diseñador Web | Programador Full Stack
 
@@ -210,6 +210,6 @@ A la comunidad de Backrooms por inspirar uno de los universos colaborativos más
 
 ### ⭐ Si te gusta este proyecto, considera darle una estrella en GitHub ⭐
 
-**Desarrollado con ❤️ por ISAI REYES **
+**Desarrollado con ❤️ por ISAI REYES**
 
 </div>
